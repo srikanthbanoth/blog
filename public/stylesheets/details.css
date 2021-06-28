@@ -1,0 +1,96 @@
+*{
+     font-family: 'Lato', sans-serif;
+     margin: 0;
+     padding: 0;
+}
+.blogdetails{
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.345rem;
+    /* border: 1px solid black; */
+}
+.blogdetails img{
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.blogdetails .name{
+    font-size: 3.125rem;
+    margin-bottom: 1rem;
+    /* background-color: black; */
+}
+.blogdetails .para{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 0.453rem;
+    
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.author h3{
+    text-transform: uppercase;
+}
+.author img{
+    margin-right: 0.834rem;
+    height: 3.75rem;
+    width: 3.75rem;
+    /* margin-bottom: 1rem; */
+}
+
+.data{
+    /* align-self: center;
+    justify-self: center; */
+    /* border: 1px solid black; */
+    font-size: 1.375rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    /* padding: 3rem; */
+    line-height: 1.5em;
+}
+.data code{
+    background-color: #D0D0D5;
+    padding: 2px;
+}
+.data a{
+    text-decoration: underline;
+    color: black;
+}
+.data li{
+    list-style: none;
+    line-height: 1.5;
+}
+.data h1{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.data h2{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.data h3{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.data h4{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.data h5{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.data h6{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
