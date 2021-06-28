@@ -21,5 +21,8 @@
   "devDependencies": {
     "global-jsdom": "8.1.0",
     "jsdom": "^16.6.0"
+  },
+   "engines": {
+    "node": "14.17.0"
   }
 }
