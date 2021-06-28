@@ -2,7 +2,7 @@ const express=require("express");
 const mongoose=require("mongoose");
 const indexRoute=require('./routes/index');
 // const upload = require("express-fileupload");
-
+const multer=require("multer");
 const app=express();
 
 const PORT=process.env.PORT || 3000;
